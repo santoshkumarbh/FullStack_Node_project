@@ -25,7 +25,7 @@ function Login() {
             
             if(res.data.Status==="Success"){
                 navigate("/");
-                navigate("/category")
+                // navigate("/category");
             }   
             else{
                 alert("Error");
